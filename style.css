@@ -1,0 +1,268 @@
+body{
+    margin:0px;
+    color:white;
+    background-color: #455059;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    margin:0;
+    border-radius:0;
+    background-color: #000000e6; 
+    color:white;
+}
+
+
+.modal-content {
+    background-color: #8dafcd;
+    margin: 5% auto; 
+    padding: 20px;
+    border-radius: 15px;
+    width: 95%; 
+    max-width: 1200px; 
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3); 
+}
+
+#modalBig{
+    display:flex;
+    justify-content: space-between;
+}
+
+#modalMap{
+    width:95%;
+    max-height:70vh;
+    margin-top:0px;
+}
+
+#modalDiv{
+    width:30%;
+}
+
+#modalDetails{
+    width:65%;
+
+}
+
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.material-symbols-outlined{
+    font-size:30px;
+
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#submitButton{
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:2px;
+    cursor:pointer;
+    
+}
+
+#submitButton:hover{
+    background-color: #21dc98; 
+
+}
+
+#randomButton{
+    background-color: #8dafcd; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:2px;
+    cursor:pointer;
+    
+}
+
+#randomButton:hover{
+    background-color: #b1cfe9; 
+    color:black;
+
+}
+
+#detailsButton{
+    background-color: #455059; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:2px;
+    cursor:pointer;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+
+#detailsButton:hover{
+    background-color: #b1cfe9; 
+    color:black;
+
+}
+
+main{
+    padding:20px;
+    width:90%;
+    background-color:#455059;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    height:100vh;
+}
+
+#first{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#second{
+    display:flex;
+    justify-content: space-between;
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    background-color: #789EBF;
+    border-radius:5px;
+    padding:20px;
+}
+
+#countryImages{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#flag{
+    height:200px;
+    width:48%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#coat{
+    height:200px;
+    max-width:175px;
+    width:48%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#countryDetails{
+    width:48%;
+    background-color:#BBD8F2;
+    border-radius:5px;
+    cursor:pointer;
+    color:black;
+}
+
+#countryDetails:hover{
+    background-color:#D5E7F2;
+
+}
+
+#remainingDetails{
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:auto;
+    margin-left:auto;
+    width:90%;
+    background-color: #F2F2F2;
+    color:black;
+    
+}
+
+#remainingDetails h2{
+    padding-top: 20px;
+}
+
+.list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color:black;
+}
+
+.list li {
+    margin: 8px 0px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    line-height: 1.6;
+
+}
+
+.list li strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.list li:nth-child(odd) {
+    background-color: #f1f1f1; 
+}
+
+.list ul{
+    list-style:none;
+    padding:0;
+}
+.scroll{
+    max-height: 200px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+#map{
+    width:48%;
+}
+
+#googMap{
+    height:450px;
+}
